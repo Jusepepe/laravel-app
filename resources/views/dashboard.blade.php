@@ -3,12 +3,10 @@
     <!-- Top nav-->
     <x-header></x-header>
     <!--aside-menu>-->
-<<<<<<< HEAD
     <div class="flex min-h-0 flex-1 overflow-hidden">
         <x-aside-menu></x-aside-menu>
         <x-image-plot></x-image-plot>
     </div>
-=======
     <x-aside-menu :imageUrl="$imageUrl"></x-aside-menu>
 
 <script>
@@ -84,5 +82,4 @@
   
     });
   </script>
->>>>>>> 2f74bd0493c12f3f6874c2f29db2765cd85bf029
 </x-app-layout>
